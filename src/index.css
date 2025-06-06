@@ -1,0 +1,23 @@
+.website-card {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+  .website-card iframe {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  .website-card .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+
+  .dark-color-var1{
+    color:#002c6e;
+  }
+  

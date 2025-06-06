@@ -1,0 +1,11 @@
+.post-thumbnail img {
+    object-fit: cover;
+    width: 320px;
+    height: 240px;
+}
+.post-thumbnail-widget img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+

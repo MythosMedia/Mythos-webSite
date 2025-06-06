@@ -1,0 +1,31 @@
+[
+
+    {
+        "id": 1,
+        "thumb": "/images/others/Mythos-website-48.jpg",
+        "subtitle": "Step One",
+        "title": "Discover & Strategize",
+        "paragraph": " We delve into your brand’s essence, crafting a strategic blueprint that aligns with your vision and market dynamics."
+    },
+    {
+        "id": 2,
+        "thumb": "/images/others/Mythos-website-51.jpg",
+        "subtitle": "Step Two",
+        "title": "Create & Innovate",
+        "paragraph": "Our team translates strategy into impactful, creative campaigns, ensuring every piece resonates with your audience and sets you apart."
+    },
+    {
+        "id": 3,
+        "thumb": "/images/others/Mythos-website-49.jpg",
+        "subtitle": "Step Three",
+        "title": "Implement & Optimize",
+        "paragraph": "We execute with precision, continuously analyzing performance metrics to refine and enhance the effectiveness of your campaigns."
+    },
+    {
+        "id": 4,
+        "thumb": "/images/others/Mythos-website-53.jpg",
+        "subtitle": "Step four",
+        "title": "Evaluate & Evolve",
+        "paragraph": "We review results and gather insights to fine-tune our approach, ensuring sustained growth and ongoing success for your brand."
+    }
+]

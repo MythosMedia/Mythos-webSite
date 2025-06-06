@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/688.e48a3cca.chunk.css","mappings":"AACA,yBACI,qBACI,qBACJ,CAEF","sources":["common/holders/image/index.css"],"sourcesContent":["\n@media (max-width: 768px) {\n    .image-container img{\n        height: auto !important;\n    }\n    \n  }"],"names":[],"sourceRoot":""}

@@ -1,0 +1,63 @@
+{
+  "name": "mythos",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@emailjs/browser": "^3.4.0",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^6.21.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.2.3",
+    "fslightbox-react": "^1.6.2-2",
+    "mdb-react-ui-kit": "^2.2.0",
+    "node-sass": "npm:sass@^1.49.9",
+    "react": "^17.0.2",
+    "react-animation-on-scroll": "^5.1.0",
+    "react-bootstrap": "^2.2.3",
+    "react-countdown": "^2.3.2",
+    "react-countup": "^6.1.1",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.12.0",
+    "react-lazyload": "^3.2.1",
+    "react-on-screen": "^2.1.1",
+    "react-paginate": "^8.1.3",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "react-tilty": "^2.0.3",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.{js,jsx,mjs} --fix"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@eslint/js": "^9.9.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-performance": "^0.1.1",
+    "eslint-plugin-react": "^7.35.2",
+    "eslint-plugin-unused-imports": "^4.1.3",
+    "globals": "^15.9.0"
+  }
+}

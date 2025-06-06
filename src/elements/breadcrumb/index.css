@@ -1,0 +1,34 @@
+/* Base style for the placeholder glow */
+.placeholder-glow {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* default height */
+    border-radius: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    .placeholder-glow {
+        height: 30vh; /* slightly taller on small screens */
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .placeholder-glow {
+        height: 35vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .placeholder-glow {
+        height: 50vh;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 993px) {
+    .placeholder-glow {
+        height: 360px; /* less height as screens get larger */
+    }
+}
