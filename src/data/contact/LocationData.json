@@ -1,0 +1,18 @@
+[
+
+    {
+        "thumb": "https://res.cloudinary.com/df2fe2yzk/image/upload/v1725444373/location-1_otstlp.jpg",
+        "title": "Vancouver",
+        "address": "Vancouver, Canada"
+    },
+    {
+        "thumb": "https://res.cloudinary.com/dti7p0zc4/image/upload/v1725379981/IMG_0784_ugof07.jpg",
+        "title": "Abu Dhabi",
+        "address": "Abu Dhabi, UAE"
+    },
+    {
+        "thumb": "https://res.cloudinary.com/df2fe2yzk/image/upload/v1725445403/location-3_t41ctk.webp",
+        "title": "Casablanca",
+        "address": "Casablanca, Morocco"
+    }
+]

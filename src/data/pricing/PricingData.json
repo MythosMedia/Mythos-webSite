@@ -1,0 +1,38 @@
+[
+    {
+        "title": "mythospy light",
+        "subtitle": "Ideal for small, local companies",
+        "yprice": "$672",
+        "yduration": "/yearly",
+        "mprice": "$80",
+        "mduration": "/monthly",
+        "facility": [
+            "Monthly keyword analysis",
+            "5-10 application keywords"
+        ]
+    },
+    {
+        "title": "Mythospy Competitive",
+        "subtitle": "Designed for small to medium sized businesses in busy markets",
+        "yprice": "$1260",
+        "yduration": "/yearly",
+        "mprice": "$150",
+        "mduration": "/monthly",
+        "facility": [
+            "Monthly keyword analysis",
+            "15-30 application keywords"
+        ]
+    },
+    {
+        "title": " Mythospy Total Market",
+        "subtitle": "For businesses poised for ambitious growth",
+        "yprice": "$2100",
+        "yduration": "/yearly",
+        "mprice": "$250.00",
+        "mduration": "/monthly",
+        "facility": [
+            "Unlimited Monthly Keyword search",
+            "Unlimited Competitive analysis"
+        ]
+    }
+]

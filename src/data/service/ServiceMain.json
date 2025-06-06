@@ -1,0 +1,224 @@
+[
+    {
+        "image": "/images/icon/seo.png",
+        "title": "SEO OPTIMIZATION",
+        "description": "We use advanced SEO techniques to boost your website's presence on search engines and attract the targeted traffic. We increase your ranks and attract high-quality leads by combining on-page and off-page strategies, data analysis, and industry best practices.",
+        "process": {
+            "sectionSub": "Process",
+            "sectionTitle": "Our logo design process",
+            "para":"Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+            "steps": [
+                {
+                    "thumb": "/images/others/process-1.png",
+                    "subtitle": "Step One",
+                    "title": "Discover",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-2.png",
+                    "subtitle": "Step Two",
+                    "title": "Prototype",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-3.png",
+                    "subtitle": "Step Three",
+                    "title": "Test",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "id": 4,
+                    "thumb": "/images/others/process-4.png",
+                    "subtitle": "Step four",
+                    "title": "Build",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                }
+            ]
+        }
+    },
+    {
+        "image": "/images/services/adv-icon.svg",
+        "title": "ADVERTISING",
+        "description": "Our Ad campaigns bring results. We launch creative and well-planned ad campaigns across the web. With expertise in developing ad content for social media, search engines, and e-commerce platforms, we craft comprehensive ad campaigns.",
+        "process": {
+            "sectionSub": "Process",
+            "sectionTitle": "Our logo design process",
+            "para":"Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+            "steps": [
+                {
+                    "thumb": "/images/others/process-1.png",
+                    "subtitle": "Step One",
+                    "title": "Discover",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-2.png",
+                    "subtitle": "Step Two",
+                    "title": "Prototype",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-3.png",
+                    "subtitle": "Step Three",
+                    "title": "Test",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "id": 4,
+                    "thumb": "/images/others/process-4.png",
+                    "subtitle": "Step four",
+                    "title": "Build",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                }
+            ]
+        }
+    },
+    {
+        "image": "/images/icon/div.png",
+        "title": "WEBSITE DEVELOPMENT",
+        "description": "We build beautiful, functional, and efficient websites that will define your brand’s online  presence. Each of our websites is crafted to reflect your company’s purpose,  incorporating expert ad copy, custom media, and user friendly design.",
+        "process": {
+            "sectionSub": "Process",
+            "sectionTitle": "Our logo design process",
+            "para":"Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+            "steps": [
+                {
+                    "thumb": "/images/others/process-1.png",
+                    "subtitle": "Step One",
+                    "title": "Discover",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-2.png",
+                    "subtitle": "Step Two",
+                    "title": "Prototype",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-3.png",
+                    "subtitle": "Step Three",
+                    "title": "Test",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "id": 4,
+                    "thumb": "/images/others/process-4.png",
+                    "subtitle": "Step four",
+                    "title": "Build",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                }
+            ]
+        }
+    },
+    {
+        "image": "/images/icon/pencil.png",
+        "title": "BRAND IDENTITY",
+        "description": "A brand is far more than a catchy name or a fancy logo. We provide our clients with the full suite of custom brand identity products. A well established brand identity is key to cultivating a strong foundation for your business. ",
+        "process": {
+            "sectionSub": "Process",
+            "sectionTitle": "Our logo design process",
+            "para":"Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+            "steps": [
+                {
+                    "thumb": "/images/others/process-1.png",
+                    "subtitle": "Step One",
+                    "title": "Discover",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-2.png",
+                    "subtitle": "Step Two",
+                    "title": "Prototype",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-3.png",
+                    "subtitle": "Step Three",
+                    "title": "Test",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "id": 4,
+                    "thumb": "/images/others/process-4.png",
+                    "subtitle": "Step four",
+                    "title": "Build",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                }
+            ]
+        }
+    },
+    {
+        "image": "/images/icon/hand.png",
+        "title": "BUSINESS SERVICES",
+        "description": "We offer specialized services for businesses. Get expert help in areas including sales, supply chain, creative design, international markets, and fundraising. We can help elevate your business to the highest professional standards.",
+        "process": {
+            "sectionSub": "Process",
+            "sectionTitle": "Our logo design process",
+            "para":"Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+            "steps": [
+                {
+                    "thumb": "/images/others/process-1.png",
+                    "subtitle": "Step One",
+                    "title": "Discover",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-2.png",
+                    "subtitle": "Step Two",
+                    "title": "Prototype",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-3.png",
+                    "subtitle": "Step Three",
+                    "title": "Test",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "id": 4,
+                    "thumb": "/images/others/process-4.png",
+                    "subtitle": "Step four",
+                    "title": "Build",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                }
+            ]
+        }
+    },
+    {
+        "image": "/images/icon/pan.png",
+        "title": "E-COMMERCE SOLUTIONS",
+        "description": "With our extensive expertise in e-commerce, you can entirely elevate your online shopping experience. We create dependable, easy-to-use e-commerce platforms that boost revenue,improve client satisfaction, and help you achieve your business objectives.",
+        "process": {
+            "sectionSub": "Process",
+            "sectionTitle": "Our logo design process",
+            "para":"Our comprehensive logo design strategy ensures a perfectly crafted logo for your business.",
+            "steps": [
+                {
+                    "thumb": "/images/others/process-1.png",
+                    "subtitle": "Step One",
+                    "title": "Discover",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-2.png",
+                    "subtitle": "Step Two",
+                    "title": "Prototype",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "thumb": "/images/others/process-3.png",
+                    "subtitle": "Step Three",
+                    "title": "Test",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                },
+                {
+                    "id": 4,
+                    "thumb": "/images/others/process-4.png",
+                    "subtitle": "Step four",
+                    "title": "Build",
+                    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+                }
+            ]
+        }
+    }
+]

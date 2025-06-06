@@ -1,0 +1,123 @@
+[
+    {   "id": 1,
+        "thumb":"https://res.cloudinary.com/dti7p0zc4/image/upload/v1725308024/Giordan_Portrait_jhqcxh.webp",
+        "role":"manager",
+        "title": "Giordan",
+        "designation": "Chief of Operations <br> ",
+        "description": "Welcome to Mythos! As a founder of Mythos Media, my goal was to bring world-class marketing and advanced business services to firms in select industries that needed these services most. In an increasingly globalized and competitive landscape, I saw small to medium sized firms struggle to keep up with the complex developments happening in the commercial world. We created Mythos to help meet the needs of these firms in the most efficient way possible, connecting businesses to local and global markets by tapping into an international network of professional expertise.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {   "id": 2,
+        "thumb":"https://res.cloudinary.com/dti7p0zc4/image/upload/c_fill,ar_1:1,g_auto/v1725308027/Ranj_Portrait_uhnieg.jpg",
+        "title": "Ranj ",
+        "role":"manager",
+        "designation": "Chief Accounts <br>Officer ",
+        "description": "As one of the founders of Mythos Media, I made it my mission to connect the vision behind Mythos and our services to clients at home and abroad. With over a decade of sales experience, I take full responsibility for client satisfaction. By ensuring that the client is at the center of everything we do, I make sure that Mythos has fruitful relationships with our clients that extend well beyond a mere transaction.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {   "id": 4,
+    "thumb":"https://res.cloudinary.com/dti7p0zc4/image/upload/v1725298142/Rokaya_Portrait_xe62m5.jpg",
+    "title": "Rokaya",
+    "role":"member",
+    "designation": "Editor & Lead Copywriter <br> ",
+  
+    "description": "Hey! I am Rokaya Timija. As Editor and Lead Copywriter, I blend creativity with strategic thinking to craft compelling narratives. My background in International Studies and Diplomacy helps me communicate complex ideas with clarity and impact. I see every piece of content as a chance to influence and inspire. When I'm not writing, I attend think tanks and conferences to stay updated on global debates and innovations, which keeps my work fresh and insightful.",
+    "social": {
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://twitter.com/",
+        "pinterst": "https://www.pinterest.com/",
+        "linkedin": "https://www.linkedin.com/",
+        "instagram": "https://www.instagram.com/",
+        "vimeo": "https://vimeo.com/",
+        "dribble": "https://dribbble.com/",
+        "behance": "https://www.behance.net/"
+    }
+},
+    {   "id": 3,
+        "thumb":"",
+        "title": "Kartik",
+        "role":"member",
+        "designation": "Lead  <br> Web Developer",
+        "description": "As the tech lead at Mythos, I guide our team in building efficient and reliable web solutions. My role involves overseeing projects from start to finish, ensuring that every detail is handled with precision. Having worked with people from diverse backgrounds, I excel in a collaborative environment. My experience as a professional goalkeeper has instilled a strong sense of responsibility and teamwork, qualities I bring to my leadership role. Outside of work, my love for football continues - fueling my passion and dedication in all aspects of my life.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {   "id": 5,
+        "thumb":"https://res.cloudinary.com/dti7p0zc4/image/upload/v1725298142/Sara_Portrait_jahcb6.jpg",
+        "title": "Sara",
+        "role":"member",
+        "designation": " Design Director<br> ",
+        "description": "Hey there! I’m Sara Zekri, design director at Mythos Media, with 9 years of experience in graphic design, and visual communication. My role focuses on crafting cohesive visual identities, guiding web design, and creating impactful assets from social media posts to prints. I began my journey with a degree in Applied Art and a professional diploma in graphic design. At Mythos, I’m excited to push creative boundaries and help our clients shine. When I’m not working, you’ll find me playing guitar, spending time with loved ones, or enjoying anime—currently hooked on One Piece!.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {   "id": 6,
+        "thumb":"",
+        "title": "Michelle ",
+        "role":"member",
+        "designation": "Account Executive <br>",
+        "description": "I’ve dedicated the past few years to the real estate industry, combining my sales expertise with a knack for recruitment. I love connecting the right people with the right opportunities, ensuring that everyone involved comes out ahead.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {   "id": 7,
+        "thumb":"",
+        "title": "Eric",
+        "role":"member",
+
+        "designation": "Account Executive <br> ",
+        "description": "I've spent several years working with one of Canada’s top B2B sales organizations. I'm not just driven by results—I’m passionate about building meaningful client relationships and finding solutions that truly make a difference.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    }
+]

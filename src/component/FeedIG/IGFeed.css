@@ -1,0 +1,230 @@
+.instagram-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 65px auto 25px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .instagram-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Margin for when flex items wrap */
+  }
+  
+  .profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-details h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .profile-details span {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .follow-btn {
+    background-color: #002c6e;
+    color: #fff;
+    border: none;
+    padding: 12px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: .75px;
+    margin-top: 10px;
+  }
+  
+  .posts-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin-top: 50px;
+  }
+  
+  .post-card {
+    position: relative;
+    width: 100%;
+    max-width: 350px; /* Ensure the card doesn't exceed its max width */
+    flex: none;
+    scroll-snap-align: start;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-image,
+  .post-video {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .post-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow text to wrap on smaller screens */
+  }
+  
+  .post-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-date {
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+  .instagram-icon {
+    font-size: 25px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay img {
+    max-width: 50%; /* Ensure the icon scales down on smaller screens */
+  }
+  
+  .post-card:hover .overlay {
+    cursor: pointer;
+    display: flex;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Large Tablets and Smaller Laptops */
+  @media (max-width: 1024px) {
+    .instagram-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .posts-container {
+      justify-content: center;
+    }
+  
+    .post-card {
+      max-width:400px;
+      margin-bottom: 20px; /* Space between cards when wrapping */
+    }
+  }
+  @media (max-width: 860px) {
+    .post-card {
+      max-width:350px;
+      margin-bottom: 20px; /* Space between cards when wrapping */
+    }
+  }
+  
+  /* Small Tablets and Large Phones */
+  @media (max-width: 768px) {
+    .profile-details h2 {
+      font-size: 16px;
+    }
+  
+    .profile-details span {
+      font-size: 12px;
+    }
+  
+    .follow-btn {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  
+    .post-image,
+    .post-video {
+      height: 400px; /* Adjust height for smaller screens */
+    }
+  
+    .post-date {
+      font-size: 10px;
+    }
+  
+    .instagram-icon img {
+      width: 24px; /* Smaller icon on smaller screens */
+    }
+    .post-card {
+        max-width:80%;
+        margin-bottom: 20px; /* Space between cards when wrapping */
+      }
+  }
+  
+  /* Small Phones */
+  @media (max-width: 480px) {
+    .profile-details h2 {
+      font-size: 14px;
+    }
+  
+    .profile-details span {
+      font-size: 12px;
+    }
+  
+    .follow-btn {
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+  
+    .post-image,
+    .post-video {
+        height: 100%;
+        object-fit: cover;
+    }
+  
+    .post-date {
+      font-size: 10px;
+    }
+    .post-card {
+        max-width: 100%;
+        margin-bottom: 20px;
+        height: 345px;
+      }
+  }
+  
+  #loading{
+    padding-top:30px;
+    text-align: center;
+  }

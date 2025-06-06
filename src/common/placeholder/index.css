@@ -1,0 +1,26 @@
+.rotating-logo {
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.glow {
+    animation: backgroundPulse 1.5s infinite ease-in-out;
+}
+
+@keyframes backgroundPulse {
+    0%, 100% {
+        background-color: #002c6e77; /* Light Gray */
+    }
+    50% {
+        background-color: #002c6e39; /* Darker Red */
+    }
+}
