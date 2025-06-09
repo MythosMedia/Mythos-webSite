@@ -90,7 +90,6 @@ const ProjectOne = ({parentClass, colSize, itemShow, columnGap}) => {
 							</div>
 						))}
 					</div>
-
                 </div>
                 <ul className="shape-group-7 list-unstyled">
                     <li className="shape shape-2">

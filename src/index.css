@@ -21,3 +21,7 @@
     color:#002c6e;
   }
   
+.d-flex.justify-content-center > .col-xl-4 {
+    margin-left: auto;
+    margin-right: auto;
+}

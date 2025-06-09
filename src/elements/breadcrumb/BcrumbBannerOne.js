@@ -14,15 +14,15 @@ const BcrumbBannerOne = ({title, paragraph, styleClass, mainThumb, styles}) => {
                         <img  src={mainThumb} width={850} height={600} alt="Illustration" />
                     </Tilty>
                 </div> */}
-                <div className={`banner-thumbnail ${styleClass}`} style={{ top: '100px', ...(styles || {}) }}>
-                    <Tilty perspective={2000} reset={false}>
+                <div className={`banner-thumbnail ${styleClass}`} style={{ top: '150px',right:"100px", ...(styles || {}) }}>
+                    <Tilty perspective={2500} reset={false}>
                         <img  src={mainThumb} width={830} height={600} alt="Illustration" />
                     </Tilty>
                 </div>
             </div>
             <ul className="shape-group-8 list-unstyled">
                 <li className="shape shape-2">
-                    <img  src={"/images/Mythos-website-47.png"} alt="Bubble" />
+                    <img  src={"/images/Mythos-website-48.png"} alt="Bubble" />
                 </li>
                
             </ul>

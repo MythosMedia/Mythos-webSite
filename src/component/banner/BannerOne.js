@@ -6,13 +6,14 @@ const BannerOne = () => {
   return (
     <div className="banner banner-style-1">
       <div className="container">
-        <div className="row align-items-end align-items-xl-start">
+        <div className="row align-items-end align-items-xl-start" style={{marginBottom:"80px"}}>
           <div className="col-lg-6">
-            <div className="banner-content">
+            <div className="banner-content" style={{marginTop:"80px"}}>
               <AnimationOnScroll
                 animateIn="fadeInUp"
                 animateOnce={true}
                 delay={100}
+                style={{ marginTop:"150px"}}
               >
                 <h1 className="title">
                 Turning Data into Dominance <br />

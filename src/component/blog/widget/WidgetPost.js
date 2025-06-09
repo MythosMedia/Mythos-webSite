@@ -19,7 +19,7 @@ const WidgetPost = () => {
 
   const fetchPosts = async () => {
     try {
-      const response = await fetch('https://blogs.mythosmedia.io/wp-json/wp/v2/posts?per_page=3');
+      const response = await fetch('/blog-proxy.php?page=1');
       const data = await response.json();
       const postsWithMedia = await Promise.all(
         data.map(async (post) => {

@@ -11,12 +11,12 @@
     border-radius: 15px; /* Rounded corners */
     width: 90%;
     max-width: 80%; /* Maximum width for the window */
-    height: 650px; /* Fixed height for the window */
+    height: 850px; /* Fixed height for the window */
     overflow: hidden; /* Hide any overflow */
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 80px rgba(36, 47, 65, 1), 0 6px 20px rgba(36, 47, 65, 1); /* Box shadow */
+    box-shadow: 0 2px 30px rgba(36, 47, 65, 0.3), 0 4px 10px rgba(36, 47, 65, 0.2);
 }
 
 .website-iframe {
