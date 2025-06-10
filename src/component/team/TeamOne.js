@@ -67,11 +67,11 @@ const TeamOne = () => {
                     {/* Render members in rows */}
                     {memberRows.map((row, index) => (
                         <div
-                            className={`d-flex flex-wrap ${row.length < 3 ? 'justify-content-center' : ''} w-100`}
+                            className={`row w-100 ${row.length < 3 ? 'justify-content-center' : ''}`}
                             key={`member-row-${index}`}
                         >
                             {row.map((data) => (
-                                <div className="col-xl-4 col-sm-6" key={data.id}>
+                                <div className="col-xl-4 col-sm-6 col-12" key={data.id}>
                                     <TeamGridItem data={data} />
                                 </div>
                             ))}

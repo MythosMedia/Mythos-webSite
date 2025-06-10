@@ -19,7 +19,7 @@ const BreadCrumbOne = ({title, page,styles={}}) => {
             </div>
             <ul className="shape-group-8 list-unstyled">
                 {/* <li className="shape shape-1"><img loading="lazy" src={"/images/others/bubble-9.png"} alt="Bubble" /></li> */}
-                <li className="shape shape-2"><img loading="lazy" src={"/images/mythos-logo-01.png"} width="300" height={300} alt="Bubble" /></li>
+                <li className="shape shape-2"><img loading="lazy" src={"/images/Mythos-website-48.png"} width="300" height={300} alt="Bubble" /></li>
                 {/* <li className="shape shape-3"><img loading="lazy" src={"/images/others/line-4.png"} alt="Line" /></li> */}
             </ul>
         </div>

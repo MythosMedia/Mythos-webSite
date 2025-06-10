@@ -19,7 +19,7 @@ const WidgetPost = () => {
 
   const fetchPosts = async () => {
     try {
-      const response = await fetch('/blog-proxy.php?page=1');
+      const response = await fetch('/blog-proxy.php?per_page=3');
       const data = await response.json();
       const postsWithMedia = await Promise.all(
         data.map(async (post) => {
