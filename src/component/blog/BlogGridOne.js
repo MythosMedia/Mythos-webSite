@@ -19,7 +19,7 @@ const BlogGridOne = () => {
   const blogsPerPage = 5;
   const pageCount = Math.ceil(blogs.length / blogsPerPage);
   const pageVisited = pageNumber * blogsPerPage;
-  const [isLoading , setisLoading ] = useState(true);
+  const [isLoading, setisLoading] = useState(true);
 
   function decodeHtml(html) {
     var txt = document.createElement("textarea");
@@ -46,24 +46,46 @@ const BlogGridOne = () => {
 
   const fetchBlogs = async () => {
     try {
-      const response = await fetch("/blog-proxy.php?per_page=100");
+      const response = await fetch("https://blogs.mythosmedia.io/blog-proxy.php?per_page=100");
+
+      // Check for HTTP errors
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+
+      // Check if response is JSON
+      const contentType = response.headers.get("content-type");
+      if (!contentType || !contentType.includes("application/json")) {
+        const text = await response.text();
+        console.error("Expected JSON but received:", text);
+        throw new Error("Invalid content-type: " + contentType);
+      }
+
       const data = await response.json();
+
+      // Fetch featured images with fallback
       const blogsWithMedia = await Promise.all(
         data.map(async (post) => {
           if (post.featured_media > 0) {
-            post.featuredImage = await fetchMedia(post.featured_media);
+            try {
+              post.featuredImage = await fetchMedia(post.featured_media);
+            } catch (err) {
+              console.warn(`Failed to fetch media for post ${post.id}:`, err);
+              post.featuredImage = null;
+            }
           }
           return post;
         })
       );
+
       setBlogs(blogsWithMedia);
     } catch (error) {
       console.error("Error fetching blog posts:", error);
+      setBlogs([]); // fallback to empty if needed
     } finally {
-      setisLoading(false);  // Set loading to false after data is fetched or an error occurs
+      setisLoading(false);
     }
   };
-  
 
   useEffect(() => {
     fetchBlogs();
@@ -76,7 +98,7 @@ const BlogGridOne = () => {
   return (
     <>
       {isLoading ? (
-        <LoaderMythos />  // Your custom loading component
+        <LoaderMythos />
       ) : (
         blogs.slice(pageVisited, pageVisited + blogsPerPage).map((data) => (
           <div className="blog-grid" key={data.id}>
@@ -86,19 +108,26 @@ const BlogGridOne = () => {
               </Link>
             </h3>
             <div className="author">
-              <img loading="lazy" width="80" src={data.authors[0].avatar_url.url || data.authors[0].avatar_url} alt="Blog Author" />
+              <img
+                loading="lazy"
+                width="80"
+                src={data?.authors?.[0]?.avatar_url?.url || data?.authors?.[0]?.avatar_url}
+                alt="Blog Author"
+              />
               <div>
                 <h6 className="author-name">
-                  <Link to={`/team-details/${data.authors[0].slug}`}>{data.authors[0].display_name}</Link>
+                  <Link to={`/team-details/${data?.authors?.[0]?.slug}`}>
+                    {data?.authors?.[0]?.display_name}
+                  </Link>
                 </h6>
                 <ul className="blog-meta list-unstyled">
-                  <li>{new Date(data.date).toLocaleDateString()}</li>
+                  <li>{new Date(data?.date).toLocaleDateString()}</li>
                   <li>5 min read</li>
                 </ul>
               </div>
             </div>
             <div className="post-thumbnail">
-              {data.featuredImage ? (
+              {data?.featuredImage ? (
                 <img
                   loading="lazy"
                   src={data.featuredImage.guid.rendered}
@@ -106,20 +135,23 @@ const BlogGridOne = () => {
                 />
               ) : null}
             </div>
-            <p dangerouslySetInnerHTML={{ __html: data.excerpt.rendered }}></p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: data?.excerpt?.rendered,
+              }}
+            ></p>
             <Link
               className="axil-btn btn-borderd btn-large"
-              to={`/blog-details/${data.slug}`}
+              to={`/blog-details/${data?.slug}`}
             >
               Read More
             </Link>
-            <hr style={{marginTop:'45px'}} />
+            <hr style={{ marginTop: "45px" }} />
           </div>
         ))
       )}
     </>
   );
-  
 };
 
 export default BlogGridOne;

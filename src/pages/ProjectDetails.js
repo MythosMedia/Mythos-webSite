@@ -24,7 +24,7 @@ const ProjectDetails = () => {
     const getProjectData = allProjectData.filter(data => slugify(data.title) === projectSlug);
     const detailsProject = getProjectData[0];
 
-
+    
     return (
         <>
         <SEO title="Project Details"/>

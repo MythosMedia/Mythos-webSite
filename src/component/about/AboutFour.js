@@ -12,7 +12,7 @@ const AboutFour = () => {
                     <div className="row" style={{alignItems:'center'}}>
                     <div className="col-xl-6 col-lg-6">
                         <div className="case-study-featured-thumb text-start">
-                        <img loading="lazy" src={"https://res.cloudinary.com/df2fe2yzk/image/upload/v1725458540/iphone15-mockup_lk1xh6.jpg"} alt="travel"  width={"100%"} height={"100%"} />
+                        <img loading="lazy" src={"https://res.cloudinary.com/df2fe2yzk/image/upload/w_800,h_800,q_100/v1725458540/iphone15-mockup_lk1xh6.jpg"} alt="travel"  width={"100%"} height={"100%"} />
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6">

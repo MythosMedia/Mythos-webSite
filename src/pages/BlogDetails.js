@@ -31,7 +31,7 @@ const BlogDetails = () => {
   }, [slug]);
 
   if (!blogDetails) {
-    return <LoaderMythos/>;
+    return <LoaderMythos />;
   }
 
   return (
@@ -56,7 +56,7 @@ const BlogDetails = () => {
                                         sources={['https://www.youtube.com/watch?v=1iIZeIy7TqM']}
                                     /> */}
                 </div>
-                <BlogAuthor data={blogDetails.authors[0]} />
+                <BlogAuthor data={blogDetails?._link?.authors?.[0]} />
               </div>
               <div className="col-lg-4">
                 <BlogSidebar />

@@ -7,12 +7,12 @@ const BlogAuthor = ({data}) => {
         <div className="blog-author">
             <div className="author">
                 <div className="author-thumb">
-                    <img loading="lazy" src={`${data.avatar_url.url}`} alt="Blog Author" />
+                    <img loading="lazy" src={`${data?.avatar_url?.url}`} alt="Blog Author" />
                 </div>
                 <div className="info">
-                    <h5 className="title">{data.display_name}</h5>
-                    <p>{data.job_title}</p>
-                    <p>{data.description}</p>
+                    <h5 className="title">{data?.display_name}</h5>
+                    <p>{data?.job_title}</p>
+                    <p>{data?.description}</p>
                     {/* <ul className="social-share list-unstyled">
                         <li><a href={data.social[0].facebook}><FaFacebookF /></a></li>
                         <li><a href={data.social[0].twitter}><FaXTwitter /></a></li>
